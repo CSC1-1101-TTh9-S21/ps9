@@ -54,6 +54,6 @@ And then you would fix the error in the code as you describe in your document.
 
 ---
 
-## Part 2: Using the debugger.
+## Part 2: Using the debugger
 
 
