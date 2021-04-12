@@ -46,6 +46,7 @@ I'd want to see something like this:
 * The problem is that the code tried to add a string to an integer, which is not possible. 
 * I'd fix this by having `a = "5"` so that I could concatenate the two variables together as a string.
 
+And then you would fix the error in the code as you describe in your document.
 
 ### What to submit in your .zip file.
 1. The document with the description of each bug, as described above. 
