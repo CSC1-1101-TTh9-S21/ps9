@@ -10,7 +10,7 @@ Download this whole directory to your desktop, unzip it, and carry out the tasks
 ---
 
 ## Part 1: Debugging
-For this part of the problem set, find `ps7-buggy.py` in the `ps7` folder within this folder. I took my solution for ps7, and I introduced one bug in each of the 5 image functions (`colorswitch()`, `fliphorizontal()`, `greyscale()`, `monochrome()`, `upsidedown()`). Your goal will be to test the program in order to identify these 5 bugs. 
+For this part of the problem set, find `ps7-buggy.py` in the `ps7` folder within this folder. I took my solution for ps7, and I introduced one bug in each of the 5 image functions (`colorswitch()`, `fliphorizontal()`, `greyscale()`, `monochrome()`, `upsidedown()`). Your goal will be to test the program in order to identify these 5 bugs, determine what is causing them, and fix them in your version of the program.
 
 In 4 of the 5 functions, the bug causes the whole program to crash. You will have to look at the stack trace and the code to identify and repair the bug.
 
