@@ -9,7 +9,7 @@ Download this whole directory to your desktop, unzip it, and carry out the tasks
 
 ---
 
-## Part 1: Revisiting Problem Set 7
+## Part 1: Debugging
 For this part of the problem set, find `ps7-buggy.py` in the `ps7` folder within this folder. I took my solution for ps7, and I introduced an bug in each of the 5 image functions (`colorswitch()`, `fliphorizontal()`, `greyscale()`, `monochrome()`, `upsidedown()`). Your goal will be to test the program in order to identify these 5 bugs. 
 
 In 4 of the 5 functions, the bug causes the whole program to crash. You will have to look at the stack trace and the code to identify and repair the bug.
@@ -33,8 +33,8 @@ Here is what you need to do:
 For instance, if you were given this code
 
 ```
-a = 5
-b = "tree"
+a = 2
+b = "pac"
 c = a + b
 ```
 
@@ -44,16 +44,28 @@ I'd want to see something like this:
 * The line that triggered this error was this one: `c = a + b`
 * Either of the first two lines is the problem since that's where these variables were created.
 * The problem is that the code tried to add a string to an integer, which is not possible. 
-* I'd fix this by having `a = "5"` so that I could concatenate the two variables together as a string.
+* I'd fix this by having `a = "2"` so that I could concatenate the two variables together as a string to make "2pac".
 
 And then you would fix the error in the code as you describe in your document.
 
 ### What to submit in your .zip file.
 1. The document with the description of each bug, as described above. 
-2. Your version of `ps7-buggy.py` with all five bug fixes.
+2. Your version of `ps7-buggy.py` with all five bug fixed.
 
 ---
 
-## Part 2: Using the debugger
+## Part 2: Recursion
+In class, I demonstrated recursion by rewriting some of our favorite old functions recursively. In part 2, you will write a recursive version of random search. I've given you some starter code in `part2.py`, which includes recursive versions of sequential search and binary search, as well as a main method that calls all three functions.
+
+If the number to be guessed is 14, I will expect to see this output after running the `main()` function. Of course, the number of guesses for random search will vary because it guesses randomly. :)
+
+```
+Pick a number between 1 and 100: 14
+Sequential search guessed the number 14 in 14 guesses
+Binary search  guessed the number 14 in 5 guesses
+Random search guessed the number 14 in 76 guesses
+```
+
+
 
 
