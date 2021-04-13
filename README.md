@@ -48,14 +48,10 @@ I'd want to see something like this:
 
 And then you would fix the error in the code as you describe in your document.
 
-### What to submit in your .zip file.
-1. The document with the description of each bug, as described above. 
-2. Your version of `ps7-buggy.py` with all five bug fixed.
-
 ---
 
 ## Part 2: Recursion
-In class, I demonstrated recursion by rewriting some of our favorite old functions recursively. In part 2, you will write a recursive version of random search. I've given you some starter code in `part2.py`, which includes recursive versions of sequential search and binary search, as well as a main method that calls all three functions.
+In class, I demonstrated recursion by rewriting some of our favorite old functions recursively. In part 2, you will write a recursive version of random search. I've given you some starter code in `recursive-search.py`, which includes recursive versions of sequential search and binary search, as well as a main method that calls all three functions.
 
 If the number to be guessed is 14, I will expect to see this output after running the `main()` function. Of course, the number of guesses for random search will vary because it guesses randomly. :)
 
@@ -66,6 +62,17 @@ Binary search  guessed the number 14 in 5 guesses
 Random search guessed the number 14 in 76 guesses
 ```
 
+---
+## What to submit 
+
+Create a folder containing these files: 
+1. The document with the description of each bug, as described in part 1.
+2. Your version of `ps7-buggy.py` with all five bug fixed, as described in part 1.
+3. Your version of `recursive-search.py` with a recurisve implementation of random search.
+
+Zip the file up, and submit the `.zip` file to Canvas. You do not need to include any other files.
+
+### Due Tuesday, April 20, 2021, at 11:59pm EST
 
 
 
