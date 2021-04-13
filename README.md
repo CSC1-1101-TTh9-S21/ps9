@@ -20,10 +20,10 @@ Here is what you need to do:
 
 1. Create a document using a text editor, Word, Google Docs, latex, or your preferred document creation software.
 
-2. In the document, for each of the 5 functions (`colorswitch()`, `fliphorizontal()`, `greyscale()`, `monochrome()`, `upsidedown()`), provide the following information:
+2. In the document, for each of the 5 functions (`colorswitch()`, `fliphorizontal()`, `greyscale()`, `monochrome()`, `upsidedown()`), provide the following information in plain English, using the sample below as a guide. Points will be taken off if we can't understand what you are talking about. Please use complete sentences.
 
-* Reproduce the error from the stac trace (if it's one of the bugs that crashes the program) or describe the problem (if it's the bug that just has an unintended effect on the image).
-* Reproduce the line of code that triggered the error (i.e., the one in the stack trace or the one that messes up the output).
+* Copy the error from the stack trace (if it's one of the bugs that crashes the program) or describe the problem (if it's the bug that just has an unintended effect on the image).
+* Copy the line of code that triggered the error (i.e., the one in the stack trace or the one that messes up the output).
 * If there is a line earlier in the code that is actually causing the problem, also reproduce that line.
 * Describe a few sentences what the bug is and how someone might have made that mistake.
 * Describe how you would fix the error. 
